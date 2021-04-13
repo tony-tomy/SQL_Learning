@@ -1,3 +1,8 @@
+-- Order table and its columns
+
+SELECT order_day, order_id, product_id, quantity, price
+	FROM public."order";
+
 '''
 SQL Code to find the percentage of amount spent on each order
 '''
